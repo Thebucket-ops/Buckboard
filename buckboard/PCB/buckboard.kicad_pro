@@ -648,7 +648,7 @@
         "uuid": "92392aa8-3793-4fda-a137-246c9c5a2323"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR2,#PWR4,#PWR6-8,D1-16,D31-41,D107-108,JOYSTICK1,SW1-16,SW30-40,SW71,J1",
     "variants": []
   },
   "sheets": [
