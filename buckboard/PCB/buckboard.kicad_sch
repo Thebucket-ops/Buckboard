@@ -2737,7 +2737,7 @@
 		(uuid "27f4f653-d6b0-444a-a787-9b15516e6f77")
 	)
 	(junction
-		(at 269.24 181.61)
+		(at 269.24 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28b8dc39-fe3b-4b86-bcb2-c6418b5299c1")
@@ -2821,6 +2821,12 @@
 		(uuid "3d84afe1-e381-4b8a-a6df-205ac5c76ff7")
 	)
 	(junction
+		(at 242.57 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ddff909-ac8d-4f2b-a473-5551702bb4bb")
+	)
+	(junction
 		(at 267.97 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2839,7 +2845,7 @@
 		(uuid "3ffc8353-3b24-4fa4-8537-4e17ebdd5153")
 	)
 	(junction
-		(at 252.73 181.61)
+		(at 252.73 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "411fa912-6bb3-4158-9f2a-2a9e51899894")
@@ -2849,12 +2855,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44c4c0d3-9edd-4e43-ba13-c6b787c25066")
-	)
-	(junction
-		(at 298.45 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45de6197-d979-4198-bca9-6390dae88344")
 	)
 	(junction
 		(at 435.61 144.78)
@@ -2905,10 +2905,10 @@
 		(uuid "4fb21a9e-070a-4e73-8100-94f5978496c9")
 	)
 	(junction
-		(at 242.57 156.21)
+		(at 298.45 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "538591eb-099d-4d61-a9cf-dbf421ba925b")
+		(uuid "54865f5d-85f5-4ae3-ab81-63150958a678")
 	)
 	(junction
 		(at 288.29 99.06)
@@ -2975,12 +2975,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74ba0e30-d7a5-491c-ba5a-e81dd6b58bdc")
-	)
-	(junction
-		(at 227.33 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75c02018-d460-4ddc-8b57-a0cd931db239")
 	)
 	(junction
 		(at 425.45 118.11)
@@ -3127,12 +3121,6 @@
 		(uuid "ad25f9db-f9a4-420b-9e16-5993cb91bf73")
 	)
 	(junction
-		(at 257.81 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2421f58-f213-4941-a732-3e5444818c84")
-	)
-	(junction
 		(at 344.17 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3251,6 +3239,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2a7e8f7-7f54-4c11-91f3-363b8c212850")
+	)
+	(junction
+		(at 257.81 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e50a39e1-3058-4013-ac38-2e93275f1a93")
+	)
+	(junction
+		(at 227.33 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e871c13c-191e-4e72-9a60-7ce0dbaa029f")
 	)
 	(junction
 		(at 425.45 80.01)
@@ -3622,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 181.61) (xy 252.73 181.61)
+			(xy 237.49 182.88) (xy 252.73 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3659,6 +3659,16 @@
 			(type default)
 		)
 		(uuid "291a9564-6a49-48a3-9f65-607b02683827")
+	)
+	(wire
+		(pts
+			(xy 242.57 156.21) (xy 242.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a22c406-8d04-41b0-8feb-62b0725e7677")
 	)
 	(wire
 		(pts
@@ -3812,6 +3822,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 156.21) (xy 257.81 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de814f3-e086-44df-a41a-52b2aacebfe8")
+	)
+	(wire
+		(pts
 			(xy 295.91 34.29) (xy 331.47 34.29)
 		)
 		(stroke
@@ -3892,16 +3912,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 181.61) (xy 298.45 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b065a79-e745-4431-b6c8-650e50a458ff")
-	)
-	(wire
-		(pts
 			(xy 318.77 99.06) (xy 318.77 118.11)
 		)
 		(stroke
@@ -3979,16 +3989,6 @@
 			(type default)
 		)
 		(uuid "52491c48-811b-4ef3-b0a0-469475f1cc7c")
-	)
-	(wire
-		(pts
-			(xy 257.81 156.21) (xy 257.81 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5587c98b-eb07-4768-8788-aa8224c5992f")
 	)
 	(wire
 		(pts
@@ -4082,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 181.61) (xy 298.45 181.61)
+			(xy 269.24 182.88) (xy 298.45 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4132,7 +4132,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 173.99) (xy 259.08 173.99)
+			(xy 257.81 175.26) (xy 259.08 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4492,7 +4492,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 181.61) (xy 269.24 181.61)
+			(xy 252.73 182.88) (xy 269.24 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4709,16 +4709,6 @@
 			(type default)
 		)
 		(uuid "b4959840-d501-4c15-af89-cb102cd7d2a0")
-	)
-	(wire
-		(pts
-			(xy 242.57 156.21) (xy 242.57 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53145ae-e44e-4498-9e8f-a947927d9fe9")
 	)
 	(wire
 		(pts
@@ -5152,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 156.21) (xy 227.33 173.99)
+			(xy 227.33 156.21) (xy 227.33 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7214,7 +7204,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "1"
 			(at 247.65 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7502,7 +7492,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "è"
 			(at 400.05 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7686,7 +7676,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F5"
 			(at 308.61 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +7756,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "K"
 			(at 354.33 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8325,7 +8315,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "INS"
 			(at 430.53 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8405,7 +8395,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" ","
 			(at 369.57 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8485,7 +8475,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "6"
 			(at 323.85 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8565,7 +8555,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "I"
 			(at 354.33 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8749,7 +8739,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "O"
 			(at 369.57 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8809,7 +8799,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 232.41 173.99 180)
+		(at 232.41 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8820,7 +8810,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c74d8ad-0e04-4e65-aa43-aa7ad300423f")
 		(property "Reference" "SW98_1.5"
-			(at 232.41 168.91 0)
+			(at 232.41 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8829,8 +8819,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 232.41 171.45 0)
+		(property "Value" "CTRL"
+			(at 232.41 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8840,7 +8830,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
-			(at 232.41 179.07 0)
+			(at 232.41 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,7 +8841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 179.07 0)
+			(at 232.41 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8862,7 +8852,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 232.41 173.99 0)
+			(at 232.41 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9013,7 +9003,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "+"
 			(at 415.29 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9177,7 +9167,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 247.65 173.99 180)
+		(at 247.65 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9188,7 +9178,7 @@
 		(fields_autoplaced yes)
 		(uuid "216ccdaf-e27a-4566-9a3e-e5754b4a7156")
 		(property "Reference" "SW99_1.25"
-			(at 247.65 168.91 0)
+			(at 247.65 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9197,8 +9187,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 247.65 171.45 0)
+		(property "Value" "WIN"
+			(at 247.65 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9208,7 +9198,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
-			(at 247.65 179.07 0)
+			(at 247.65 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9219,7 +9209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 179.07 0)
+			(at 247.65 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +9220,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 247.65 173.99 0)
+			(at 247.65 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9277,7 +9267,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "ù"
 			(at 415.29 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9461,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "ò"
 			(at 384.81 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9541,7 +9531,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "CTRL"
 			(at 415.29 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,7 +9799,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 269.24 177.8 90)
+		(at 269.24 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9820,7 +9810,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ad4c1e0-b5fb-4cb1-8c88-2d1b943c0562")
 		(property "Reference" "D100"
-			(at 271.78 176.5299 90)
+			(at 271.78 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9831,7 +9821,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 271.78 179.0699 90)
+			(at 271.78 180.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9842,7 +9832,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 273.685 177.8 0)
+			(at 273.685 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9853,7 +9843,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 269.24 177.8 0)
+			(at 269.24 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9864,7 +9854,7 @@
 			)
 		)
 		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 269.24 177.8 0)
+			(at 269.24 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9875,7 +9865,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 269.24 177.8 0)
+			(at 269.24 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9886,7 +9876,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 177.8 0)
+			(at 269.24 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10219,7 +10209,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "<>"
 			(at 247.65 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10299,7 +10289,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Q"
 			(at 247.65 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10483,7 +10473,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "U"
 			(at 339.09 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10563,7 +10553,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "2"
 			(at 262.89 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10643,7 +10633,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "X"
 			(at 278.13 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10723,7 +10713,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "\\"
 			(at 232.41 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11323,7 +11313,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TAB"
 			(at 232.41 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11611,7 +11601,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "CAPS LOCK"
 			(at 232.41 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11691,7 +11681,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "4"
 			(at 293.37 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11960,7 +11950,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "G"
 			(at 308.61 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12756,7 +12746,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "PAGE THINGY"
 			(at 400.05 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12836,7 +12826,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "S"
 			(at 262.89 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13124,7 +13114,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "J"
 			(at 339.09 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13308,7 +13298,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "CANC/DEL"
 			(at 430.53 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13388,7 +13378,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "SHIFT"
 			(at 415.29 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13676,7 +13666,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B"
 			(at 323.85 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14068,7 +14058,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "."
 			(at 384.81 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14564,7 +14554,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "T"
 			(at 308.61 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14644,7 +14634,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F3"
 			(at 278.13 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14714,7 +14704,7 @@
 		(dnp no)
 		(uuid "6b33e06b-5941-403b-a6db-79755e44babe")
 		(property "Reference" "SW4"
-			(at 293.37 87.63 0)
+			(at 292.862 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14723,8 +14713,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 293.37 84.836 0)
+		(property "Value" "F4"
+			(at 293.624 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14894,7 +14884,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "SPACE"
 			(at 293.37 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15052,7 +15042,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "P"
 			(at 384.81 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15132,7 +15122,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F10"
 			(at 384.81 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15524,7 +15514,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "5"
 			(at 308.61 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15786,7 +15776,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "3"
 			(at 278.13 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15866,7 +15856,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "SHIFT"
 			(at 232.41 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16362,7 +16352,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F2"
 			(at 262.89 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16546,7 +16536,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F"
 			(at 293.37 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16626,7 +16616,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "0"
 			(at 384.81 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16914,7 +16904,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "SPACE"
 			(at 339.09 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16994,7 +16984,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "E"
 			(at 278.13 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17282,7 +17272,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "W"
 			(at 262.89 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17752,7 +17742,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "'"
 			(at 400.05 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18040,7 +18030,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "8"
 			(at 354.33 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18120,7 +18110,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "WIN"
 			(at 384.81 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18278,7 +18268,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "R"
 			(at 293.37 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18358,7 +18348,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "backspace"
 			(at 430.53 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18516,7 +18506,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F1"
 			(at 247.65 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18596,7 +18586,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F6"
 			(at 323.85 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18676,7 +18666,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "-"
 			(at 400.05 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18756,7 +18746,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Z"
 			(at 262.89 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18816,7 +18806,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 264.16 173.99 180)
+		(at 264.16 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18827,7 +18817,7 @@
 		(fields_autoplaced yes)
 		(uuid "be35a691-1ed6-4480-8ebe-96adc381b263")
 		(property "Reference" "SW100_1.25"
-			(at 264.16 168.91 0)
+			(at 264.16 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18836,8 +18826,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 264.16 171.45 0)
+		(property "Value" "ALT"
+			(at 264.16 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18847,7 +18837,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
-			(at 264.16 179.07 0)
+			(at 264.16 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18858,7 +18848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 179.07 0)
+			(at 264.16 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18869,7 +18859,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 264.16 173.99 0)
+			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18916,7 +18906,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "ENTER"
 			(at 430.53 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18996,7 +18986,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "à"
 			(at 400.05 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19076,7 +19066,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F11"
 			(at 400.05 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19364,7 +19354,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "V"
 			(at 308.61 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19652,7 +19642,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "M"
 			(at 354.33 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20226,7 +20216,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "H"
 			(at 323.85 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20306,7 +20296,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "ì"
 			(at 415.29 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20366,7 +20356,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 237.49 177.8 90)
+		(at 237.49 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20377,7 +20367,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4dd4d7f-5ae3-410e-a5be-1cb6287adb06")
 		(property "Reference" "D98"
-			(at 240.03 176.5299 90)
+			(at 240.03 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20388,7 +20378,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 240.03 179.0699 90)
+			(at 240.03 180.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20399,7 +20389,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 241.935 177.8 0)
+			(at 241.935 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20410,7 +20400,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 237.49 177.8 0)
+			(at 237.49 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20421,7 +20411,7 @@
 			)
 		)
 		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 237.49 177.8 0)
+			(at 237.49 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20432,7 +20422,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 237.49 177.8 0)
+			(at 237.49 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20443,7 +20433,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 237.49 177.8 0)
+			(at 237.49 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20490,7 +20480,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F8"
 			(at 354.33 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20882,7 +20872,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "D"
 			(at 278.13 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21066,7 +21056,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "L"
 			(at 369.57 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21250,7 +21240,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F9"
 			(at 369.57 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21330,7 +21320,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F12"
 			(at 415.29 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21410,7 +21400,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "9"
 			(at 369.57 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21470,7 +21460,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 252.73 177.8 90)
+		(at 252.73 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21481,7 +21471,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea0d49a1-33a3-4f0d-a736-619ddf525191")
 		(property "Reference" "D99"
-			(at 255.27 176.5299 90)
+			(at 255.27 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21492,7 +21482,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 255.27 179.0699 90)
+			(at 255.27 180.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21503,7 +21493,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 257.175 177.8 0)
+			(at 257.175 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21514,7 +21504,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 252.73 177.8 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21525,7 +21515,7 @@
 			)
 		)
 		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 252.73 177.8 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21536,7 +21526,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 252.73 177.8 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21547,7 +21537,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 252.73 177.8 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21698,7 +21688,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "C"
 			(at 293.37 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21778,7 +21768,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "A"
 			(at 247.65 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21858,7 +21848,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "ALT GR"
 			(at 369.57 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21938,7 +21928,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "F7"
 			(at 339.09 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22018,7 +22008,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "7"
 			(at 339.09 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22306,7 +22296,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Y"
 			(at 323.85 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22386,7 +22376,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "N"
 			(at 339.09 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
