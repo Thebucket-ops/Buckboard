@@ -3,6 +3,9 @@
 
 #include QMK_KEYBOARD_H
 #include "keymap_italian.h"
+enum layer_names {
+    _BASE, 
+};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
@@ -46,5 +49,5 @@ bool oled_task_user(void) {
 }
 #endif
 
-int16_t joystick_read_axis(GP27)
-int16_t joystick_read_axis(GP28)
+// int16_t joystick_read_axis(uint8_t GP27)
+// int16_t joystick_read_axis(uint8_t GP28)
