@@ -676,6 +676,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -1571,6 +1582,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -1861,6 +1883,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -2413,6 +2446,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3010,6 +3054,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4542,6 +4597,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -5899,6 +5965,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -6801,6 +6878,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -7093,6 +7181,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -7383,6 +7482,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8010,6 +8120,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -8300,6 +8421,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -10401,7 +10533,19 @@
 			(uuid "d91a22b1-722b-4c64-94b3-da3a17eb0c63")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11311,6 +11455,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -12209,6 +12364,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -12801,6 +12967,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -13720,6 +13897,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 		(layer "F.Cu")
@@ -14010,6 +14198,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -14911,6 +15110,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -15203,6 +15413,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -15493,6 +15714,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -16087,6 +16319,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -17590,6 +17833,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -17882,6 +18136,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -18172,6 +18437,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -18765,6 +19041,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -19361,6 +19648,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -19945,13 +20243,24 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -0.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -20854,6 +21163,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -22053,6 +22373,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -22650,6 +22981,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -22940,6 +23282,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -23534,6 +23887,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -25045,6 +25409,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -25335,6 +25710,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -26238,6 +26624,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -27137,6 +27534,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -27429,6 +27837,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB"
 		(layer "F.Cu")
@@ -27711,6 +28130,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.75u_PCB.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27719,6 +28139,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -28004,6 +28435,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -28298,6 +28740,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -28590,6 +29043,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -28872,6 +29336,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28880,6 +29345,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -29165,13 +29641,24 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -1.5 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -29466,6 +29953,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -29756,6 +30254,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -30355,6 +30864,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -30645,6 +31165,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -35273,6 +35804,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -35864,6 +36406,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -36458,6 +37011,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -37355,6 +37919,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_ISOEnter_PCB"
 		(layer "F.Cu")
@@ -37693,6 +38268,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -38292,6 +38878,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -38582,6 +39179,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -39485,6 +40093,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -40082,6 +40701,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -40372,6 +41002,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -40967,6 +41608,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -41865,7 +42517,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -42765,6 +43428,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -44995,6 +45669,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -45278,6 +45963,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -46166,13 +46862,24 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -46467,6 +47174,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -46757,6 +47475,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -47383,6 +48112,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -47673,6 +48413,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -47967,6 +48718,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -48257,6 +49019,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -48856,6 +49629,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -49441,6 +50225,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -50647,6 +51442,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -50939,6 +51745,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/marin/Downloads/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -51228,7 +52045,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -51826,6 +52654,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${DOWN}/REDragon-MX-ZT02.stp"
+			(offset
+				(xyz -2.5 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -54583,100 +55422,12 @@
 		(uuid "d406e4d0-7247-4636-b5d9-35814da8f4be")
 	)
 	(segment
-		(start 592.99 145.41)
-		(end 595.189598 145.41)
+		(start 593.984221 218.962105)
+		(end 593.412105 218.962105)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "VRx")
-		(uuid "0485a846-4730-4844-a749-a6defd076c22")
-	)
-	(segment
-		(start 597.95 218.44)
-		(end 596.370565 220.019435)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VRx")
-		(uuid "0bd73505-85ff-4970-995c-a5710cc379c5")
-	)
-	(segment
-		(start 596.370565 220.019435)
-		(end 593.278837 220.019435)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VRx")
-		(uuid "3c2dd0de-5907-4195-b470-029b04145b4a")
-	)
-	(segment
-		(start 595.189598 145.41)
-		(end 597.793369 142.806229)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VRx")
-		(uuid "a0ebd68e-623f-4cda-b50d-f1eb4b112421")
-	)
-	(segment
-		(start 593.278837 220.019435)
-		(end 577.75 204.490598)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VRx")
-		(uuid "e0feada2-ed6b-4db4-a22f-398edb00501a")
-	)
-	(segment
-		(start 577.75 204.490598)
-		(end 577.75 171.9)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VRx")
-		(uuid "fa7417a1-9050-4a96-a7ab-958101782a99")
-	)
-	(via
-		(at 577.75 171.9)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "VRx")
-		(uuid "9085abec-1ca2-494a-bb30-3296a810759d")
-	)
-	(via
-		(at 592.99 145.41)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "VRx")
-		(uuid "e68f474b-ed15-4425-87c8-3c6041a4730a")
-	)
-	(segment
-		(start 577.75 159.547127)
-		(end 580.867127 156.43)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "VRx")
-		(uuid "1c1d0ced-b1fb-4c3b-a60f-7d0581266ad5")
-	)
-	(segment
-		(start 581.97 156.43)
-		(end 592.99 145.41)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "VRx")
-		(uuid "41f7d553-a0d2-4bf8-8576-e63d94af39a7")
-	)
-	(segment
-		(start 577.75 171.9)
-		(end 577.75 159.547127)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "VRx")
-		(uuid "b9dc1052-6aeb-44d7-b3ba-9f98268d4609")
-	)
-	(segment
-		(start 580.867127 156.43)
-		(end 581.97 156.43)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "VRx")
-		(uuid "f2c603f2-8855-4914-b55d-7b03a2cba3cc")
+		(net "JSW")
+		(uuid "a095da15-afed-4f54-8363-035cf34373b1")
 	)
 	(segment
 		(start 595.967111 218.701053)
@@ -54895,12 +55646,100 @@
 		(uuid "e66c5314-6b92-4658-add9-a0aaab6b67ff")
 	)
 	(segment
-		(start 593.984221 218.962105)
-		(end 593.412105 218.962105)
+		(start 592.99 145.41)
+		(end 595.189598 145.41)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "JSW")
-		(uuid "a095da15-afed-4f54-8363-035cf34373b1")
+		(net "VRx")
+		(uuid "0485a846-4730-4844-a749-a6defd076c22")
+	)
+	(segment
+		(start 597.95 218.44)
+		(end 596.370565 220.019435)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VRx")
+		(uuid "0bd73505-85ff-4970-995c-a5710cc379c5")
+	)
+	(segment
+		(start 596.370565 220.019435)
+		(end 593.278837 220.019435)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VRx")
+		(uuid "3c2dd0de-5907-4195-b470-029b04145b4a")
+	)
+	(segment
+		(start 595.189598 145.41)
+		(end 597.793369 142.806229)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VRx")
+		(uuid "a0ebd68e-623f-4cda-b50d-f1eb4b112421")
+	)
+	(segment
+		(start 593.278837 220.019435)
+		(end 577.75 204.490598)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VRx")
+		(uuid "e0feada2-ed6b-4db4-a22f-398edb00501a")
+	)
+	(segment
+		(start 577.75 204.490598)
+		(end 577.75 171.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VRx")
+		(uuid "fa7417a1-9050-4a96-a7ab-958101782a99")
+	)
+	(via
+		(at 577.75 171.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "VRx")
+		(uuid "9085abec-1ca2-494a-bb30-3296a810759d")
+	)
+	(via
+		(at 592.99 145.41)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "VRx")
+		(uuid "e68f474b-ed15-4425-87c8-3c6041a4730a")
+	)
+	(segment
+		(start 577.75 159.547127)
+		(end 580.867127 156.43)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VRx")
+		(uuid "1c1d0ced-b1fb-4c3b-a60f-7d0581266ad5")
+	)
+	(segment
+		(start 581.97 156.43)
+		(end 592.99 145.41)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VRx")
+		(uuid "41f7d553-a0d2-4bf8-8576-e63d94af39a7")
+	)
+	(segment
+		(start 577.75 171.9)
+		(end 577.75 159.547127)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VRx")
+		(uuid "b9dc1052-6aeb-44d7-b3ba-9f98268d4609")
+	)
+	(segment
+		(start 580.867127 156.43)
+		(end 581.97 156.43)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VRx")
+		(uuid "f2c603f2-8855-4914-b55d-7b03a2cba3cc")
 	)
 	(segment
 		(start 456.8825 242.57)
