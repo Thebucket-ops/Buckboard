@@ -2,6 +2,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
+
+
 #include "keymap_italian.h"
 enum layer_names {
     _BASE, 
@@ -51,3 +53,56 @@ bool oled_task_user(void) {
 
 // int16_t joystick_read_axis(uint8_t GP27)
 // int16_t joystick_read_axis(uint8_t GP28)
+#define _CENTER 512
+#define _DEAD 200
+
+#define _DOWN_TRESHOLD (_CENTER+_DEAD)
+#define _UP_TRESHOLD (_CENTER-_DEAD)
+
+#ifdef JOYSTICK_ENABLE
+  int16_t xPos = 0;
+  int16_t yPos = 0;
+
+  bool yDownHeld = false;
+  bool yUpHeld = false;
+  bool xLeftHeld = false;
+  bool xRightHeld = false;
+
+  void matrix_scan_user(void) {
+      yPos = GP28;
+      if (!yDownHeld && yPos >= _DOWN_TRESHOLD) {
+        register_code(KC_DOWN);
+        yDownHeld = true;
+      } else if (yDownHeld && yPos < _DOWN_TRESHOLD) {
+        yDownHeld = false;
+        unregister_code(KC_DOWN);
+      } else if (!yUpHeld && yPos <= _UP_TRESHOLD) {
+        yUpHeld = true;
+        register_code(KC_UP);
+      } else if (yUpHeld && yPos > _UP_TRESHOLD) {
+        yUpHeld = false;
+        unregister_code(KC_UP);
+      }
+
+      xPos = GP27;
+      if (!xLeftHeld && xPos >= _DOWN_TRESHOLD) {
+        register_code(KC_RIGHT);
+        xLeftHeld = true;
+      } else if (xLeftHeld && xPos < _DOWN_TRESHOLD) {
+        xLeftHeld = false;
+        unregister_code(KC_RIGHT);
+      } else if (!xRightHeld && xPos <= _UP_TRESHOLD) {
+        xRightHeld = true;
+        register_code(KC_LEFT);
+      } else if (xRightHeld && xPos > _UP_TRESHOLD) {
+        xRightHeld = false;
+        unregister_code(KC_LEFT);
+      }
+  }
+
+  //joystick config
+  joystick_config_t joystick_axes[JOYSTICK_AXIS_COUNT] = {
+    JOYSTICK_AXIS_IN(GP28, 0, 512, 1023),
+    JOYSTICK_AXIS_IN(GP27, 0, 512, 1023)
+  };
+#endif
