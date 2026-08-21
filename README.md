@@ -15,7 +15,7 @@ the case 3d files can be found in /case
 
 The firmware for the board is made in qmk, the keymap offered has the italian layout.
 All files can be found on /firmware.
-
+To flash the firmware simply turn on the devboard on bootloader mode and drag the uf2 file in the devboard.
 
 ### **BOM**
 
