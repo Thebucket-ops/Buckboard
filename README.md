@@ -18,16 +18,44 @@ This is the schematich for the wiring of the keyboard, each key has its own key 
 
 Each key has to be placed accordingly to how its shown below, the pcb layout is also helpful for wiring so look at it while you wire the keyboard
 ![pcb](/images/pcb.png "pcb")
-### **FIRMWARE**
+
+THIS IS A WIRED KEYBOARD, THE PCB, ALTOUGH PROBABLY WORKING, IS JUST FOR REFERENCE IN WIRING
+
+## **WIRING**
+
+Here's a schematic on the wiring of the keyboard, the points with the pin number are to be soldered to the indicated pin on the number
+
+![wiring](/images/wiring.png)
+
+here are also the pins for all the non-key related connections:
+- **rotary encoder***:
+ - A -> GP14
+ - B -> GP13
+
+- **OLED display**:
+ - GND -> GROUND
+ - VCC -> 3.3V
+ - SCL -> GP17
+ - SDA -> GP16
+
+- **JOYSTICK MODULE**:
+ - GND -> GROUND
+ - 5V/3.3V -> 3.3V
+ - VRx -> GP27
+ - VRy -> GP28
+ - SW -> GND
+
+
+## **FIRMWARE**
 
 The firmware for the board is made in qmk, the keymap offered has the italian layout.
 All files can be found on /firmware.
 To flash the firmware simply turn on the devboard on bootloader mode and drag the uf2 file in the devboard.
 
-### **BOM**
+## **BOM**
 
-  The build requires: 
- - [Fredboard v2](https://github.com/Thebucket-ops/Fredboard) (~20$/pcs)
+  The build requires:  
+ - 1 pi pico (~7$/pcs [here](https://www.kubii.com/it/microcontrollori/3205-1639-raspberry-pi-pico-w-h-wh-3272496311589.html#/versione_pico-pico))
  - 1 rotary encoder (~15$/10pcs [here](https://www.amazon.it/RUNCCI-YUN-Rotativo-Potenziometro-Digitale-Interruttore/dp/B09SG3HF9N?dib=eyJ2IjoiMSJ9.F8wSD_ClX5zz0PV7IOKvMkRhgyj-cGrY_61fAiASZ94c_mqYwGcYO2LfgHDMmtkLLSino1Pd-_Z8fvpDhx8DIvmlWJccgXqmOFTzvwe1BLPanCgETyudOtUZT9Ufk_3F3Gbc0jFqR6dC4F8MQeamH-wypuVv5iJ48G5n8PrqyaYo7Gsi5FyNlbMGxPjJw6Yv8BhH01mSLIdqSywhAVNpqFnVbQmpprpa9KXmNVoyD8AuH2dO-ndtwUD7AGoTH5E1jhLOjCudrsIiiV8hci9BpDOvhlL3qAmJGjfxH4KTrhQ.eGlkaoZ4o36PyYWL80J3xJWT7rkP3XtXI0fsI0ih9ww&dib_tag=se&keywords=rotary+encoder&qid=1793640223&sr=8-4))
  - 1 joystick moudule (~10$/5pcs [here](https://www.amazon.it/ARCELI-Joystick-Breakout-Module-Arduino/dp/B077Z8QN3S?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3DF8HYTAZMGI1&dib=eyJ2IjoiMSJ9.azcL_6pR9k-VQV-Bp9yBl-ovBqnUR6SjUehkSwaS5Wh2XCvc09OWHMWm41YyFK0PxCOkPQs40QXJPQhbPXYBKEpltBGW_IxIbLmfVi0qSEZw9uFkzg87gOWdravNtxWfebBmtJJjYdWhUvGoGDaQwbiKyFJjyrHCQgyBkecfKQSXlLZfLwYitYo09t7exWX6K8jyDtWcrnj2amiFMB4PMWpjNxR8lnZ5FUU6e6TvTZHMNT-gFap7kG7x7RUsfuPfS4JF8etH_q-v7D0ia59vx2_1AKPquWSYkonLvUhfjZo.Th0ATBVvj1aCIP76Lc_8X88_u4u22PmVYsjqk2jAaZY&dib_tag=se&keywords=joystick+module&qid=1793640403&sprefix=joystick+module%2Caps%2C135&sr=8-4) )
  - 77 keyswitches (~25$/150pcs [here](https://www.amazon.it/gp/product/B0GS645MLG?smid=A227R4NKW6D6GV&psc=1))
