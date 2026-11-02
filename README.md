@@ -28,7 +28,8 @@ Here's a schematic on the wiring of the keyboard, the points with the pin number
 ![wiring](/images/wiring.png)
 
 here are also the pins for all the non-key related connections:
- **rotary encoder***:
+
+ **rotary encoder**:
  - A -> GP14
  - B -> GP13
 
