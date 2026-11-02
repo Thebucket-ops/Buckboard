@@ -28,17 +28,17 @@ Here's a schematic on the wiring of the keyboard, the points with the pin number
 ![wiring](/images/wiring.png)
 
 here are also the pins for all the non-key related connections:
-- **rotary encoder***:
+ **rotary encoder***:
  - A -> GP14
  - B -> GP13
 
-- **OLED display**:
+ **OLED display**:
  - GND -> GROUND
  - VCC -> 3.3V
  - SCL -> GP17
  - SDA -> GP16
 
-- **JOYSTICK MODULE**:
+ **JOYSTICK MODULE**:
  - GND -> GROUND
  - 5V/3.3V -> 3.3V
  - VRx -> GP27
