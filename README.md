@@ -1,7 +1,7 @@
 # ***THE BUCKBOARD***
 
 The buckboard is a 60% keyboard with a integrated joystick that simulates the arrow keys and a tiny oled screen.
-This project uses a custom raspberry pi pico which can be found here -> ([Fredboard v2](https://github.com/Thebucket-ops/Fredboard)).
+This project uses a raspberry pi pico as microcontroller.
 Altough the project offers a pcb for the keyboard, the case is made for hand wired keyboard and it should be used just for reference on how to wire up everything (still you could use the pcb, you just need to make some adjustments to the bottom part of the case)
 
 ## **CASE**
