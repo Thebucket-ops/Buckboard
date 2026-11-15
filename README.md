@@ -53,6 +53,20 @@ The firmware for the board is made in qmk, the keymap offered has the italian la
 All files can be found on /firmware.
 To flash the firmware simply turn on the devboard on bootloader mode and drag the uf2 file in the devboard.
 
+## **ASSEMBLY**
+- flash the pi pico by plugging it to the pc and dragging the firmware into the new flash drive that comes up, the pico should reboot itself and now have the firmware installed, disconnect it from the pc and place it inside the base of the keyboard
+- wire each end of the buttons and the rotary encoder as indicated above, for a general recommendation start by making the key related connections and then solder them to the pico, (make sure to wire diodes the correct way!)
+- put each button on its designated place on the base, by plugging them in the various holes on it 
+- if you have stabilizers put them in the correct holes in the base (though they are not necessary) 
+- insert 4 M3 heatsets in the holes designated for the joystick module, place the module on top, and screw it on the base
+- place the oled screen, if the module fails to maintain the correct position tape it to the top part of the case
+- finish wiring all non key-related pins to the pico
+- plug the keyboard to the pc and test it
+- If all is good, congratulations! you can now enjoy your new keyboard!
+
+Once you wired everything up on the base of the keyboard, insert 4 M3 heatset inserts at the angles where theres a hole, then place the top part on top of it and put M3 screws on the holes, easy as that!
+
+
 ## **BOM**
 
   The build requires:  
@@ -67,5 +81,7 @@ To flash the firmware simply turn on the devboard on bootloader mode and drag th
 | 0.91" oled screen | 1 | ~17$/3pcs | [here](https://www.amazon.it/APKLVSR-display-visualizzazione-Arduino-microcontrollori/dp/B0D2L1ZDWP?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1I0L3VM7VLJUO&dib=eyJ2IjoiMSJ9.IXiposGMPwzMW0L9MnGaq9dgOQjG1XXvP3NgpOOnqSB7DPO5px14HgRE8cgssMzXsi9u6_GTI-vA6X8fb1JW-Zl-8V7hUkKJ1Z0tshoToXaaWXiQBs7qBp4dhLLViAcFUzTobb2ZESK0J-o3noKHusroRZcCWeoEo0rMvEAoog19ZfOoPaCfgOYXG4JijA4dPRZKrdMk-b0gpNwjDoFqHeBUiOdDUzaFT5iyqetnoXpY8Hqazzzcr5Gcd7adHxb1m3fpojiS9mmD4eQ_ZmFuV7_NsCmSS6t_1DXEQXrvp90.dQGyT7EEeWLV01y9welVgTHb6BP5IXY4zm3mwAeLQvw&dib_tag=se&keywords=0.91%22+oled+screen&qid=1793640685&sprefix=0.91+oled+screen%C3%B9%2Caps%2C131&sr=8-1) |
 | wire for wiring |-| ~12$/280m of wire | [here](https://www.amazon.it/gp/product/B07KB3XVTB?smid=A1XDN6LSMACAXM&psc=1)|
 | keycaps | - | ~26$ | [here](https://www.amazon.it/gp/product/B0B4JV49DG?smid=A11IL2PNWYJU7H&psc=1)|
- Prices may vary based on your region
-|Total|-|~127$|-|
+| M3 heatsets | 8 | ~12$ |[here](https://www.amazon.com/Yaocom-Inserts-Threaded-Printing-Components/dp/B0DG59PW2R?channelId=500&clpRedir=Y&dib=eyJ2IjoiMSJ9.SJzCri0pQv_X1l8T5HZNmhiERIvQa8-msciS0QjTPAAhwd-rgVraRyeVxwQswfFlTd-YjCdCxFA3uJT-WnFuCrRSsE8dhjOZpUUprgR1cfoTzq1Q_Tc8Nl9N8KFkX29zl6zpxDuSCNoEWGGZyBKIbg47WtB0rHKXu9jUBiBlKqYH_aXuXq-MXTVDc8t9dM4exIGqqru5plqp-oe-yoPZXBhPLfcgq2xvU6euz2HkbEM.8IDSfozTuAeDs0d2bs2na-BcYKvdRxWLaIGJFWL3sXA&dib_tag=se&keywords=m3%2Bheat%2Bset%2Binserts&plpRedirect=mhFallback&qid=1794778078&sr=8-4&th=1)|
+| M3 screws | 8 |~10$|[here](https://www.amazon.com/Fgruh-1080PCS-Assortment-Washers-Assorted/dp/B0GHVDC8GD?crid=N9P473UEXQ9H&dib=eyJ2IjoiMSJ9.En-cw9LGpyMP8MWA4ypWPuurA7GrGZhvM3fh7U9ppxjOsNRq7P8c7RDW2qpPU5oTlHxI3HoDUXPVRXCMtwAOJCdlpnzuByiK7LyA2fRj6EmCteY_hlAqTe1dKDeQlTli8js5z0TjQj1mtXBetV1YAduoZbacMCqud0ZOvlQdwyb4kNuLzWrDQlLsKzTwKwKT8DgOpBhsrBHNwAgkF4N1pEknRZqXFkgy2R6mXASmtSs.AYIM6Z74ONT_ssLyxCwJoZqhqEAX0Xfx2zuyQ1slWXY&dib_tag=se&keywords=m3%2Bscrews&qid=1794778182&sprefix=m3%2Bscres%2Caps%2C439&sr=8-3&th=1)|
+|Total|-|~149$|-|
+ Prices may vary based on your region and time
