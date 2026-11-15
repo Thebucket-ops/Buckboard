@@ -62,10 +62,8 @@ To flash the firmware simply turn on the devboard on bootloader mode and drag th
 - place the oled screen, if the module fails to maintain the correct position tape it to the top part of the case
 - finish wiring all non key-related pins to the pico
 - plug the keyboard to the pc and test it
+- Once you wired everything up on the base of the keyboard and are sure that it is working, insert 4 M3 heatset inserts at the angles where theres a hole, then place the top part on top of it and put M3 screws on the holes, easy as that!
 - If all is good, congratulations! you can now enjoy your new keyboard!
-
-Once you wired everything up on the base of the keyboard, insert 4 M3 heatset inserts at the angles where theres a hole, then place the top part on top of it and put M3 screws on the holes, easy as that!
-
 
 ## **BOM**
 
